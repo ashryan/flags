@@ -1,0 +1,101 @@
+header h1 {
+    text-align: center;
+    border: 2px solid grey;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 250px;
+
+    }
+
+header h1:hover {
+    box-shadow: 5px 5px 5px 5px;
+}
+
+
+.german {
+
+    height: 210px;
+    width: 300px;
+    margin-bottom: 100px;
+    position: absolute; 
+    top: 300px;
+    left: 250px;
+}
+
+.german:hover .black {
+  background-color: red;
+}
+
+.german:hover .red {
+    background-color: white;
+}
+
+.german:hover .yellow {
+    background-color: green;
+}
+
+.french {
+    display: flex;
+    height:210px;
+    width: 300px;
+    position: absolute;
+    top: 525px;
+    left: 250px;
+    margin-bottom: 20px;
+}
+
+.french:hover .blue {
+    background-color: green;
+}
+
+.french:hover .red {
+    background-color: orange;
+}
+
+.black { 
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+    
+    }
+    
+.white {
+    background-color: white;
+    
+}
+
+.german div  {
+    width: 300px;
+    height: 70px;
+}
+
+.french div {
+    position: sticky;
+    height: 210px;
+    width: 100px;
+    flex-direction: row;
+}
+
+.lorem {
+    position: absolute;
+    top: 2000px;
+}
+
+.lorem::first-line{
+    text-decoration: underline;
+}
+
+
+
